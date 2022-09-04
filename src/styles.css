@@ -52,7 +52,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
-  --background-light-hover: rgba(99, 99, 99, 0.4);
+  --background-light-hover: rgba(99, 99, 99, 0.7);
   --background-dark: rgba(0, 0, 0, 0.9);
 }
 
@@ -80,11 +80,13 @@ h1, h2, h3, h4, h5, h6, p {
 body {
   background-image: url("https://img.freepik.com/darmowe-zdjecie/widok-z-gory-pizzy-pepperoni-z-pieczarek-kielbasy-papryka-oliwka-i-kukurydza-na-czarny-drewniany_141793-2158.jpg?w=2000");
   background-size: cover;
-  color: hsl(var(--clr-white));
+  color: var(--clr-black);
+  font-family: var(--ff-primary);
+  overflow: hidden;
 }
 
 img{
-  max-width: 60%;
+  max-width: 50%;
   border-radius: 50%;
 }
 
@@ -110,22 +112,37 @@ img{
 
 .content {
   margin: 0 auto;
+  padding-top: 1rem;
   width: 70%;
   height: 100vh;
   text-align: center;
   background: var(--background-light-hover);
+  
 }
 
 ul{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  list-style: none;
 }
 
-.tabs {
-  display: none;
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.tabs.active {
-  display: block;
+.location {
+  border-radius: 10%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact {
+  align-items: center;
+  justify-content: center;
 }

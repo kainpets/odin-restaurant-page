@@ -1,12 +1,15 @@
 export default function createContact() {
   const content = document.querySelector(".content");
   const contactPage = document.createElement("div");
-  contactPage.classList.add("tabs");
-  contactPage.classList.add("active");
-  contactPage.id = "menu";
+  contactPage.classList.add("flex");
+  contactPage.classList.add("contact");
+  contactPage.id = "contact";
 
   contactPage.innerHTML = `
-  <p>Does this work!</p>
+  <h2>CONTACT</h2>
+  <img class="location" src="../src/images/location.png">
+  <p>📞 123 456 789</p>
+  <p>🏠 al. Niepodleglosci, Poznan</p>
   `;
 
   content.appendChild(contactPage);

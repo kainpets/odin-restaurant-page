@@ -2,6 +2,7 @@ export default function createHeader() {
   const content = document.querySelector(".content");
 
   const header = document.createElement("header");
+  header.classList.add("flex");
   header.innerHTML = `
   <h1>Pizzeria</h1>
     <nav>

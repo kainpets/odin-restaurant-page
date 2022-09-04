@@ -21,7 +21,7 @@ function setNav() {
     } else if (id === "contact") {
       clearContent();
       createContact();
-    } else {
+    } else if (id == "home") {
       clearContent();
       createHome();
     }

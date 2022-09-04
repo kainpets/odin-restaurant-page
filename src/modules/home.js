@@ -1,8 +1,6 @@
 export default function createHome() {
   const content = document.querySelector(".content");
   const homePage = document.createElement("div");
-  homePage.classList.add("tabs");
-  homePage.classList.add("active");
   homePage.id = "home";
 
   homePage.innerHTML = `
