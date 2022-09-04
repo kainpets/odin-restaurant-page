@@ -60,3 +60,11 @@ a {
 a:hover {
   background-color: var(--background-light-hover)
 }
+
+.tabs {
+  display: none;
+}
+
+.active {
+  display: block;
+}

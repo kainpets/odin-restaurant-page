@@ -1,10 +1,5 @@
-import loadHomePage from "./modules/home";
-import loadContact from "./modules/contact";
-import loadMenu from "./modules/menu";
-
-loadHomePage();
+import createHeader from "./modules/header";
 
 
-function navEvents() {
-  
-}
+createHeader();
+
