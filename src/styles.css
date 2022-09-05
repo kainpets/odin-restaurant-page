@@ -81,7 +81,7 @@ body {
   background-image: url("https://img.freepik.com/darmowe-zdjecie/widok-z-gory-pizzy-pepperoni-z-pieczarek-kielbasy-papryka-oliwka-i-kukurydza-na-czarny-drewniany_141793-2158.jpg?w=2000");
   background-size: cover;
   color: var(--clr-black);
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   overflow: hidden;
 }
 
